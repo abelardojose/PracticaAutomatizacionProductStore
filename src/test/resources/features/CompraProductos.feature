@@ -13,5 +13,5 @@ Feature: Compra de productos en Product Sore
     And ingresa los datos de la orden de compra
     |Name     |Country  |City    |Credit card      |Month |Year |
     |Abelardo |Chiclayo |Monsefu |9876045738120753 |Abril |2023 |
-    Then validamos que la compra fue exitosa "Thank you for your order!"
+    Then validamos que la compra fue exitosa "Thank you for your purchase!"
 

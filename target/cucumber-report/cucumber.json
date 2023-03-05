@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-05T12:44:37.868Z",
+        "start_timestamp": "2023-03-05T15:08:44.452Z",
         "before": [
           {
             "result": {
-              "duration": 2383641100,
+              "duration": 2210088200,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 246217900,
+              "duration": 261527300,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1397281100,
+              "duration": 1372810000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 418861900,
+              "duration": 523599700,
               "status": "passed"
             },
             "line": 6,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 2059051000,
+              "duration": 2039116600,
               "status": "passed"
             },
             "line": 9,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 1045814100,
+              "duration": 2783269600,
               "status": "passed"
             },
             "line": 10,
@@ -109,6 +109,7 @@
           },
           {
             "result": {
+              "duration": 527881500,
               "status": "passed"
             },
             "line": 11,
@@ -120,6 +121,7 @@
           },
           {
             "result": {
+              "duration": 75543200,
               "status": "passed"
             },
             "line": 12,
@@ -131,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 993500,
+              "duration": 940273500,
               "status": "passed"
             },
             "line": 13,
@@ -165,14 +167,15 @@
           },
           {
             "result": {
+              "duration": 33883900,
               "status": "passed"
             },
             "line": 16,
-            "name": "validamos que la compra fue exitosa \"Thank you for your order!\"",
+            "name": "validamos que la compra fue exitosa \"Thank you for your purchase!\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Thank you for your order!\"",
+                  "val": "\"Thank you for your purchase!\"",
                   "offset": 36
                 }
               ],
