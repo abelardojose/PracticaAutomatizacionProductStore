@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-05T03:45:25.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2773841500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Compra de un celular Samsung galaxy s6",
+        "description": "",
+        "id": "compra-de-productos-en-product-sore;compra-de-un-celular-samsung-galaxy-s6",
+        "after": [
+          {
+            "result": {
+              "duration": 20227300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277373600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "el usuario ingresa a la pagina de Product Store",
+            "match": {
+              "location": "step.CompraUnProductoSteps.elUsuarioIngresaALaPaginaDeProductStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 666160800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "realiza el login a la pagina",
+            "match": {
+              "location": "step.CompraUnProductoSteps.realizaElLoginALaPagina(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Usuario",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "abelardo",
+                  "abelardo"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095557800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selecciono la categoria \"Phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phones\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step.CompraUnProductoSteps.seleccionoLaCategoria(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2011800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecciona el celular Samsung galaxy",
+            "match": {
+              "location": "step.CompraUnProductoSteps.seleccionaElCelularSamsungGalaxy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "lo añade al carrito de compras",
+            "match": {
+              "location": "step.CompraUnProductoSteps.loAñadeAlCarritoDeCompras()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "realiza la orden de compra",
+            "match": {
+              "location": "step.CompraUnProductoSteps.realizaLaOrdenDeCompra()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1511100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingresa los datos de la orden de compra",
+            "match": {
+              "location": "step.CompraUnProductoSteps.ingresaLosDatosDeLaOrdenDeCompra(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Country",
+                  "City",
+                  "Credit card",
+                  "Month",
+                  "Year"
+                ]
+              },
+              {
+                "cells": [
+                  "Abelardo",
+                  "Chiclayo",
+                  "Monsefu",
+                  "9876045738120753",
+                  "Abril",
+                  "2023"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validamos que la compra fue exitosa \"Thank you for your order!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order!\"",
+                  "offset": 36
+                }
+              ],
+              "location": "step.CompraUnProductoSteps.validamosQueLaCompraFueExitosa(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CompraUnCelular"
+          }
+        ]
+      }
+    ],
+    "name": "Compra de productos en Product Sore",
+    "description": "",
+    "id": "compra-de-productos-en-product-sore",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CompraProductos.feature",
+    "tags": []
+  }
+]

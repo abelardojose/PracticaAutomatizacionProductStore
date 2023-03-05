@@ -20,6 +20,6 @@ public class Hooks {
     @After
     public void tearDown() {
         driver.manage().deleteAllCookies();
-        driver.quit();
+
     }
 }
