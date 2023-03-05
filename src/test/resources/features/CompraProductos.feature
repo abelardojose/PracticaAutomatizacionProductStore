@@ -4,8 +4,8 @@ Feature: Compra de productos en Product Sore
   Scenario: Compra de un celular Samsung galaxy s6
     Given el usuario ingresa a la pagina de Product Store
     And realiza el login a la pagina
-    |Usuario  |Password  |
-    |abelardo |abelardo  |
+    |Usuario          |Password  |
+    |PruebasSelenium  |534fvsd   |
     When selecciono la categoria "Phones"
     And selecciona el celular "Samsung galaxy s6"
     And lo añade al carrito de compras

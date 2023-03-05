@@ -29,8 +29,8 @@ public class CompraUnProductoSteps {
 
     @And("realiza el login a la pagina")
     public void realizaElLoginALaPagina(DataTable dataTable) throws InterruptedException {
-       // homePage.creacionUsuario(dataTable);
-       // homePage.pasarAlerta();
+        homePage.creacionUsuario(dataTable);
+        homePage.pasarAlerta();
         homePage.loginUsuario(dataTable);
     }
 
