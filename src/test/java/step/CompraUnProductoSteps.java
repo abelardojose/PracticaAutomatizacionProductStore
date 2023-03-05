@@ -5,14 +5,17 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import page.DescripcionProductoPage;
 import page.HomePage;
 
 public class CompraUnProductoSteps {
 
     HomePage homePage;
+    DescripcionProductoPage descripcionProductoPage;
 
     public CompraUnProductoSteps(){
         homePage = new HomePage(Hooks.driver);
+        descripcionProductoPage = new DescripcionProductoPage(Hooks.driver);
     }
 
     @Given("el usuario ingresa a la pagina de Product Store")
@@ -35,6 +38,7 @@ public class CompraUnProductoSteps {
     @And("selecciona el celular {string}")
     public void seleccionaElCelular(String celular) {
         homePage.seleccionarCelular(celular);
+        descripcionProductoPage.añadirAlCarrito(celular);
     }
 
     @And("lo añade al carrito de compras")

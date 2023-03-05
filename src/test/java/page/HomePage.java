@@ -72,6 +72,5 @@ public class HomePage extends BasePage {
     public void seleccionarCelular(String celular) {
         driver.findElement(By.xpath("//a[contains(text(),'"+celular+"')]")).click();
     }
-
 }
 
