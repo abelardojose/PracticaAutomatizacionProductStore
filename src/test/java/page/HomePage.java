@@ -68,5 +68,10 @@ public class HomePage extends BasePage {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[contains(text(),'"+categoria+"')]")).click();
     }
+
+    public void seleccionarCelular(String celular) {
+        driver.findElement(By.xpath("//a[contains(text(),'"+celular+"')]")).click();
+    }
+
 }
 

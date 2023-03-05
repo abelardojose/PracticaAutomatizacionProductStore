@@ -7,7 +7,7 @@ Feature: Compra de productos en Product Sore
     |Usuario  |Password  |
     |abelardo |abelardo  |
     When selecciono la categoria "Phones"
-    And selecciona el celular Samsung galaxy
+    And selecciona el celular "Samsung galaxy s6"
     And lo añade al carrito de compras
     And realiza la orden de compra
     And ingresa los datos de la orden de compra

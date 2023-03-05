@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-05T03:45:25.208Z",
+        "start_timestamp": "2023-03-05T04:03:54.198Z",
         "before": [
           {
             "result": {
-              "duration": 2773841500,
+              "duration": 4135015000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 20227300,
+              "duration": 328471800,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1277373600,
+              "duration": 1160069600,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 666160800,
+              "duration": 605233700,
               "status": "passed"
             },
             "line": 6,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 2095557800,
+              "duration": 2104890600,
               "status": "passed"
             },
             "line": 9,
@@ -91,13 +91,19 @@
           },
           {
             "result": {
-              "duration": 2011800,
+              "duration": 472200600,
               "status": "passed"
             },
             "line": 10,
-            "name": "selecciona el celular Samsung galaxy",
+            "name": "selecciona el celular \"Samsung galaxy s6\"",
             "match": {
-              "location": "step.CompraUnProductoSteps.seleccionaElCelularSamsungGalaxy()"
+              "arguments": [
+                {
+                  "val": "\"Samsung galaxy s6\"",
+                  "offset": 22
+                }
+              ],
+              "location": "step.CompraUnProductoSteps.seleccionaElCelular(java.lang.String)"
             },
             "keyword": "And "
           },
@@ -125,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 1511100,
+              "duration": 2010800,
               "status": "passed"
             },
             "line": 13,

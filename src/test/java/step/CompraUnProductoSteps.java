@@ -32,8 +32,9 @@ public class CompraUnProductoSteps {
         homePage.seleccionarCategoria(categoria);
     }
 
-    @And("selecciona el celular Samsung galaxy")
-    public void seleccionaElCelularSamsungGalaxy() {
+    @And("selecciona el celular {string}")
+    public void seleccionaElCelular(String celular) {
+        homePage.seleccionarCelular(celular);
     }
 
     @And("lo añade al carrito de compras")
